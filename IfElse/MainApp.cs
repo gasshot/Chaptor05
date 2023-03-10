@@ -9,13 +9,14 @@ namespace IfElse
             Console.WriteLine("숫자를 입력하세요. : ");
 
             string input = Console.ReadLine();
-            int number = int.Parse(input);
+            int number = Convert.ToInt32(input);
+            //int number = int.Parse(input);
 
             if(number < 0)
                 Console.WriteLine("음수");
 
             else if (number > 0)
-                Console.WriteLine("양수");
+                Console.WriteLine("양수");//
 
             else
                 Console.WriteLine("0");
@@ -25,6 +26,7 @@ namespace IfElse
             else
                 Console.WriteLine("홀수");
                 // Console.WriteLine("홀수");
+                // test
 
         }
     }
