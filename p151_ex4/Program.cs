@@ -12,7 +12,7 @@ namespace p151_ex4
             int output = int.Parse(input);
             string a;
 
-            Console.WriteLine(output % 3 == 0 ? $"입력하신 정수 {output}은(는) 3의 배수입니다." : $"입력하신 정수 {output}은(는) 3의 배수입니다.");
+            Console.WriteLine(output % 3 == 0 ? $"입력하신 정수 {output}은(는) 3의 배수입니다." : $"입력하신 정수 {output}은(는) 3의 배수가 아닙니다.");
         }
     }
 }
