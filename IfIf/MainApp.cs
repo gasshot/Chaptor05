@@ -32,7 +32,7 @@ namespace IfIf
             else
                 //{
                 Console.WriteLine($"0보다 작거나 같은 수"); // 0
-                //}    
+                                                    //}    
 
 
         }

@@ -15,42 +15,18 @@ namespace p151_ex2
             {
                 if (grade >= 90)
                     Console.WriteLine($"입력하신 점수는 {grade}는(은) A 학점입니다.");
-                
+
                 else if (grade >= 80)
                     //{
                     Console.WriteLine($"입력하신 점수는 {grade}는(은) B 학점입니다.");
-                    //}
+                //}
                 else
                     Console.WriteLine($"입력하신 점수는 {grade}는(은) C 학점입니다.");
-            } 
-            else 
+            }
+            else
             {
                 Console.WriteLine($"입력하신 점수는 {grade}는(은) F 학점입니다.");
             }
-
-
-
-
-
-
-
-
-
-
-
-
-            string sGrade;
-
-            if (grade <= 69)
-            { 
-            
-            }
-            else if (grade >= 90)
-            {
-                sGrade = "A";
-            }
-
-            Console.WriteLine($"입력하신 점수는 {grade}는(은) "+sGrade+"학점입니다.");
         }
     }
 }

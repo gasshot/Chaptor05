@@ -10,7 +10,7 @@ namespace p151_ex4
             Console.Write("정수 1개를 입력하세요 : ");
             string input = Console.ReadLine();
 
-           
+
 
             int output = int.Parse(input);
             string a = "3의 배수가 아닙"; ;

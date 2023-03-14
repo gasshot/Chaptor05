@@ -35,7 +35,7 @@ namespace IfElse
             //}
 
             string test;
-            test = number % 2 == 0 ? "짝수":"홀수";
+            test = number % 2 == 0 ? "짝수" : "홀수";
 
             Console.WriteLine(test);
             Console.WriteLine(number % 2 == 0 ? "짝수" : "홀수");

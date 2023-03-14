@@ -42,7 +42,7 @@ namespace p151_ex5
 
 
             Console.WriteLine($"입력하신 {x},{y},{z} 중 최대값은 {max}이며, 최소값은 {min}입니다.");
-            Console.WriteLine($"입력하신 {x},{y},{z} 의 합은 {x+y+z}이며, 평균은 {(x+y+z)/3}입니다.");
+            Console.WriteLine($"입력하신 {x},{y},{z} 의 합은 {x + y + z}이며, 평균은 {(x + y + z) / 3}입니다.");
         }
     }
 }

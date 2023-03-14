@@ -5,7 +5,7 @@ namespace p151_ex2_1
 {
     class MainApp
     {
-        
+
 
         static void Main(string[] args)
         {
@@ -23,7 +23,7 @@ namespace p151_ex2_1
                 if (input != "8")
                     grade = (input == "7") ? "C" : "F";
             }
-            
+
 
             Console.WriteLine($"입력하신 점수는 {input}는(은) {grade} 학점입니다.");
         }
