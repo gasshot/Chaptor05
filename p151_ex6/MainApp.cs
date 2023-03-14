@@ -20,7 +20,6 @@ namespace p151_ex6
             Console.Write("현재 본인의 점수를 입력해 주세요. (ex.85) : ");
             string score = Console.ReadLine();
 
-
             string b;
             int g = int.Parse(grade);
             int c = int.Parse(score);
@@ -49,13 +48,6 @@ namespace p151_ex6
                 else
                     b = "불합격";
             }
-
-
-
-
-
-
-
 
             Console.WriteLine("입력하신 점수는 {0}는(은) {1}입니다.", c, b);
 

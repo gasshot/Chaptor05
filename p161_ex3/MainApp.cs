@@ -11,10 +11,10 @@ namespace p161_ex3
             string mouth = Console.ReadLine();
             int m = int.Parse(mouth);
             int d = 31;
-            
+
             if (m < 1 || m > 12)
             {
-                Console.WriteLine("다시 확인하세요");
+                Console.WriteLine("정상적인 입력값이 아닙니다. 다시 실행하여 주세요.");
                 return;
             }
 
@@ -24,10 +24,15 @@ namespace p161_ex3
                 case 2:
                     d = 28;
                     break;
-                case 
+                case 4:
+                case 6:
+                case 9:
+                case 11:
                     d = 30;
                     break;
             }
+
+            Console.WriteLine($"{m}월은 {d}일까지 있습니다.");
         }
     }
 }
