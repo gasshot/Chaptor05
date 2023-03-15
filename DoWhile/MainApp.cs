@@ -1,0 +1,27 @@
+﻿using System;
+
+namespace DoWhile
+{
+    class MainApp
+    {
+        static void Main(string[] args)
+        {
+            int i = 10;
+
+            do
+            {
+                Console.WriteLine("a) i :{0}", i--); // a) i : 10~1
+            }
+            while (i > 0);
+
+            // i = 0
+
+            do
+            {
+                Console.WriteLine("b) i :{0}", i--); // a) i : 10~1
+            }
+            while (i > 0);
+
+        }
+    }
+}

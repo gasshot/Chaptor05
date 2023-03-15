@@ -8,14 +8,15 @@ namespace p161_ex4
         {
             Console.Write("알고싶은 월을 입력해주세요. :");
             string input = Console.ReadLine();
-            int m = Convert.ToInt32(input);
-            string c = "겨울";
+            bool chk = int.TryParse(input, out int m);
 
-            if (m < 1 || m > 12)
+            if (!chk || m < 1 || m > 12)
             {
                 Console.WriteLine("정상적인 입력값이 아닙니다. 다시 실행하여 주세요.");
                 return;
             }
+
+            string c = "";
 
             switch (m)
             {
@@ -33,6 +34,9 @@ namespace p161_ex4
                 case 10:
                 case 11:
                     c = "가을";
+                    break;
+                default:
+                    c = "겨울";
                     break;
             }
             Console.WriteLine($"입력하신 {m}월은 {c}입니다.");

@@ -30,26 +30,26 @@ namespace p161_ex2
 
             switch (i)
             {
-                    case "+":
-                        p = x + y;
-                        break;
-                    case "-":
-                        p = x - y;
-                        break;
-                    case "*":
-                        p = x * y;
-                        break;
-                    case "/":
-                        p = x / y;
-                        break;
-                    case "%":
-                        p = x % y;
-                        break;
-                    default:
-                        Console.WriteLine("+,-,*,/,% 에 해당하는 값을 입력해주시길 바랍니다.");
-                        return;
+                case "+":
+                    p = x + y;
+                    break;
+                case "-":
+                    p = x - y;
+                    break;
+                case "*":
+                    p = x * y;
+                    break;
+                case "/":
+                    p = x / y;
+                    break;
+                case "%":
+                    p = x % y;
+                    break;
+                default:
+                    Console.WriteLine("+,-,*,/,% 에 해당하는 값을 입력해주시길 바랍니다.");
+                    return;
             }
-            
+
             Console.WriteLine($"입력하신 {f} {i} {s}의 결과값은 {p}입니다.");
 
         }

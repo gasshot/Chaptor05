@@ -9,10 +9,11 @@ namespace p161_ex3
         {
             Console.Write("몇월이 궁금하세요 ? : ");
             string mouth = Console.ReadLine();
-            int m = int.Parse(mouth);
+            //int m = int.Parse(mouth);
+            bool chk = int.TryParse(mouth, out int m);
             int d = 31;
 
-            if (m < 1 || m > 12)
+            if (m < 1 || m > 12 || !chk)
             {
                 Console.WriteLine("정상적인 입력값이 아닙니다. 다시 실행하여 주세요.");
                 return;
